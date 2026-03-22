@@ -1,2 +1,9 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import "./App.css";
 
+function App() {
+  return (
+      <div id="main">Now I can render any React component on any DOM node I want using ReactDOM.render</div>
+  );
+}
+
+export default App;
